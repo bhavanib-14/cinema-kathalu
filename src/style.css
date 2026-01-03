@@ -1,31 +1,135 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
-.header{
-display: flex;
-background-color: rgb(25 41 72 / var(--tw-bg-opacity, 1));
-justify-content: space-between;
+.header {
+  display: flex;
+  background-color: rgb(25 41 72 / var(--tw-bg-opacity, 1));
+  justify-content: space-between;
+  padding: 10px;
+}
+.logo img {
+  /* width: 400px; */
+  height: 68px;
+  margin-left: 80px;
+}
+.nav-bar {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  margin-right: 200px;
+  align-items: center;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+.nav-bar a:hover {
+  opacity: 0.75;
+}
+.footer-class {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer-logo img {
+  width: 400px;
+  margin-left: 50px;
+}
+.footer-icons {
+  display: flex;
+  gap: 30px;
+  margin-right: 50px;
+}
+.footer-icons a {
+  color: black;
+}
+
+.collab-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.collab-text h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.collab-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: gray;
+}
+.collab-text button {
+  padding: 10px 15px 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.Gallery {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+.Gallery h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.Gallery p {
+  margin-bottom: 30px;
+  color: gray;
+  font-size: 20px;
+}
+.Gallery-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.Film-cards{
+  text-align: center;
+margin-top: 40px;
+margin-bottom: 20px;
+}
+.Film-cards h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.Film-cards p {
+  margin-bottom: 30px;
+  color: gray;
+  font-size: 20px;
+}
+.film-card {
+border: 1px solid;
 padding: 10px;
-
+margin: 10px;
+display: inline-block;
+width: 250px;
+text-align: center;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.logo img{
-/* width: 400px; */
-height: 68px;
-margin-left: 80px;
+.film-card img {
+  width: 100%;
+  border-radius: 8px 8px;
+  height: 350px;
 }
-.nav-bar{
-display: flex;
-gap: 30px;
-font-size: 16px;
-margin-right: 200px;
-align-items: center;
+.film-card h3 {
+  margin: 10px;
+  font-size: 24px;
 }
-.nav-bar a{
-text-decoration: none;
-color: white;
-
+.film-card button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
 }
-.nav-bar a:hover{
-   opacity: 0.75;
+.film-card p {
+  
+}
+.film-card button:hover {
+ 
 }
